@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>&lt;my-element> Demo</title>
+    <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../../node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="card-api-data/card-api-data.js"></script>
+    <style>
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            margin: 60px;
+        }
+       * {
+        background: #eee;
+        margin: 0;
+       }
+    </style>
+  </head>
+  <body>
+    <h1>The <span>Rick and Morty</span> API</h1>
+    <card-api-data>
+    </card-api-data>
+  </body>
+</html>
